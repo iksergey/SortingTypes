@@ -19,9 +19,9 @@ public static class Sorting
         i++;
         j--;
       }
-      if (i < right) SortQuick(collection, i, right);
-      if (left < j) SortQuick(collection, left, j);
     }
+    if (i < right) SortQuick(collection, i, right);
+    if (left < j) SortQuick(collection, left, j);
     return collection;
   }
 }
