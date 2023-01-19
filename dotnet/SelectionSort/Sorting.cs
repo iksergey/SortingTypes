@@ -5,7 +5,7 @@ public static class Sorting
   /// Сортировка методом выбора
   /// </summary>
   /// <param name="collection">Исходный массив</param>
-  /// <returns>Отсортированный массив массив</returns>
+  /// <returns>Отсортированный массив</returns>
   public static int[] SortSelection(this int[] collection)
   {
     int size = collection.Length;
